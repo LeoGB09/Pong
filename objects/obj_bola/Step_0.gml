@@ -26,6 +26,7 @@ if(posicaoX < -1){
 	alarm[0] = 60;
 	obj_player1.y = 210;
 	obj_player2.y = 210;
+	// teste
 }
 
 if(posicaoX > 640){
