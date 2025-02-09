@@ -8,8 +8,8 @@
   "name":"obj_placar_e_pontos",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Objetos do Jogo",
+    "path":"folders/Objects/Objetos do Jogo.yy",
   },
   "parentObjectId":null,
   "persistent":false,

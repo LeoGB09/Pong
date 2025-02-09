@@ -7,4 +7,4 @@ vel = 5;
 
 //criando limite de velocidade da IA raquete
 
-velocidade_ia = 4;
+velocidade_ia = 3.5;

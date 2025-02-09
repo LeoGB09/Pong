@@ -6,21 +6,23 @@
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_225C9C4C","path":"rooms/Menu/Menu.yy",},
-    {"name":"inst_4A0DB070","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_126B3ACC","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_1748AB42","path":"rooms/Menu/Menu.yy",},
+    {"name":"inst_2737289B","path":"rooms/Menu/Menu.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v1","%Name":"inst_225C9C4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_225C9C4C","objectId":{"name":"obj_menu_1Jogador","path":"objects/obj_menu_1Jogador/obj_menu_1Jogador.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":2.0,"x":308.0,"y":64.0,},
-        {"$GMRInstance":"v1","%Name":"inst_4A0DB070","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4A0DB070","objectId":{"name":"obj_menu_2jogadores","path":"objects/obj_menu_2jogadores/obj_menu_2jogadores.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.75,"scaleY":2.0,"x":308.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_126B3ACC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_126B3ACC","objectId":{"name":"obj_opcao_jogar","path":"objects/obj_opcao_jogar/obj_opcao_jogar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":350.0,"y":71.0,},
+        {"$GMRInstance":"v1","%Name":"inst_1748AB42","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1748AB42","objectId":{"name":"obj_opcao_musicas","path":"objects/obj_opcao_musicas/obj_opcao_musicas.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":350.0,"y":145.0,},
+        {"$GMRInstance":"v1","%Name":"inst_2737289B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2737289B","objectId":{"name":"obj_opcao_sair","path":"objects/obj_opcao_sair/obj_opcao_sair.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":350.0,"y":219.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"Menu",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Menu",
+    "path":"folders/Rooms/Menu.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
@@ -33,10 +35,10 @@
   "resourceType":"GMRoom",
   "resourceVersion":"2.0",
   "roomSettings":{
-    "Height":388,
+    "Height":300,
     "inheritRoomSettings":false,
     "persistent":false,
-    "Width":840,
+    "Width":700,
   },
   "sequenceId":null,
   "views":[

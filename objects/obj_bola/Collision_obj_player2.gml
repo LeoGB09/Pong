@@ -2,4 +2,4 @@
 
 move_bounce_solid(true);
 
-speed -= incremento_velocidade;
+speed += incremento_velocidade;

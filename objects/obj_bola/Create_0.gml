@@ -2,16 +2,16 @@
 // You can write your code in this editor
 
 //velocidade da bola
-vel = -2;
+vel = 2;
 //speed = vel;
 
-incremento_velocidade = 0.2;
+incremento_velocidade = 0.5;
 //variavel para guardar ponto do jogador 2
 ponto_player2 = 0;
 ponto_player1 = 0;
 posicaoX = 0;
 //esse comando deixa o random realmente aleatorio
-randomise();
+randomize();
 
 //esse comando direciona a bola para uma direção aleatoria
 direction = choose(45, 55, 115, 135, 200, 225, 315);

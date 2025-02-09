@@ -1,5 +1,12 @@
 /// @description IA jogador 2
 
+if(keyboard_check(vk_up)){
+	y -= 5
+}
+if(keyboard_check(vk_down)){
+	y += 5
+}
+
 if(global.dois_jogadores == false){
 	//pegando a velocidade da bola e aplicando na raquete
 	//vspeed = global.vel_bola;
@@ -19,3 +26,5 @@ if(global.dois_jogadores == false){
 		vspeed = -velocidade_ia;
 	}
 }
+
+y = clamp(y,97.5, 283)

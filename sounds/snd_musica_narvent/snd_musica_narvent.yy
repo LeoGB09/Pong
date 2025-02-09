@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"snd_musica_narvent",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":250.25307,
+  "name":"snd_musica_narvent",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_musica_narvent.mp3",
+  "type":0,
+  "volume":1.0,
+}

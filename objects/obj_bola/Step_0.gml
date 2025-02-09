@@ -15,7 +15,15 @@
 //ela ricocheteia 
 
 //atualizando a velocidade da bola na variavel global
-global.vel_bola = vspeed;
+//global.vel_bola = vspeed;
+
+
+
+y = clamp(y,56, 324)
+
+if(y <= 56 || y >= 324){
+	direction = 360 - direction
+}
 
 posicaoX = x;
 
@@ -24,9 +32,6 @@ if(posicaoX < -1){
 	show_debug_message(ponto_player2);
 	resete_bola()
 	alarm[0] = 60;
-	obj_player1.y = 210;
-	obj_player2.y = 210;
-	// teste
 }
 
 if(posicaoX > 640){
@@ -34,8 +39,6 @@ if(posicaoX > 640){
 	show_debug_message(ponto_player1);
 	resete_bola()
 	alarm[0] = 60;
-	obj_player1.y = 210;
-	obj_player2.y = 210;
 }
 
 
