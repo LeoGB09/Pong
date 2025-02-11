@@ -11,7 +11,7 @@ global.dois_jogadores = false; //meu jogo inicia no modo de um jogador
 //global.vel_bola = 0;
 
 function resete_bola(){
-	x = 343;
+	x = 350;
 	y = 190;
 	direction = choose(45, 55, 115, 135, 200, 225, 315);
 	speed = 0;
@@ -22,9 +22,10 @@ function resete_bola(){
 global.ponto_jogador1 = 0;
 global.ponto_jogador2 = 0;
 
-global.cor_texto = make_color_rgb(0 , 0, 0);
+global.cor_texto = make_color_rgb(0, 0, 0);
+global.cor_vitoria = make_color_rgb(0, 0, 0);
 
 //quantidade maxima de gols
-global.gols_max = 3;
+global.gols_max = 1;
 
 global.musica_partida = snd_musica_the_synth_wars

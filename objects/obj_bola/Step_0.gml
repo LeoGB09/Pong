@@ -32,13 +32,15 @@ if(posicaoX < -1){
 	show_debug_message(ponto_player2);
 	resete_bola()
 	alarm[0] = 60;
+	alarm[1] = 120;
 }
 
-if(posicaoX > 640){
+if(posicaoX > 700){
 	global.ponto_jogador1++;
 	show_debug_message(ponto_player1);
 	resete_bola()
 	alarm[0] = 60;
+	alarm[1] = 120;
 }
 
 

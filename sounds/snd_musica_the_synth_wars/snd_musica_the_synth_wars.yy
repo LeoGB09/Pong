@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"snd_musica_the_synth_wars.mp3",
   "type":0,
-  "volume":0.5,
+  "volume":0.35,
 }

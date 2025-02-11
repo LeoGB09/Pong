@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_placar_e_pontos",
+  "%Name":"obj_linha",
   "eventList":[],
   "managed":true,
-  "name":"obj_placar_e_pontos",
+  "name":"obj_linha",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos do Jogo",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_placar",
-    "path":"sprites/spr_placar/spr_placar.yy",
+    "name":"spr_line",
+    "path":"sprites/spr_line/spr_line.yy",
   },
   "spriteMaskId":null,
   "visible":true,
