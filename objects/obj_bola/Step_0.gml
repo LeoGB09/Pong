@@ -25,23 +25,32 @@ if(y <= 56 || y >= 324){
 	direction = 360 - direction
 }
 
-posicaoX = x;
-
-if(posicaoX < -1){
-	global.ponto_jogador2++;
-	show_debug_message(ponto_player2);
-	resete_bola()
-	alarm[0] = 60;
-	alarm[1] = 120;
+if(x > 675 || x < 25){
+	speed = 2;
 }
 
-if(posicaoX > 700){
-	global.ponto_jogador1++;
-	show_debug_message(ponto_player1);
-	resete_bola()
+if(x <= -15){
+	x = 1;
+	
 	alarm[0] = 60;
-	alarm[1] = 120;
+	speed = 0;	
+	
+	image_xscale = 0.5
+	instance_destroy()
+	
+	
 }
+
+if(x >= 715){
+	x = 699;
+	
+	alarm[0] = 60;
+	speed = 0;
+	y = obj_bola.y;
+	image_xscale = -0.5
+	instance_destroy()
+}
+show_debug_message(x)
 
 
 

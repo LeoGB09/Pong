@@ -15,7 +15,7 @@ randomize();
 
 //esse comando direciona a bola para uma direção aleatoria
 direction = choose(45, 55, 115, 135, 200, 225, 315);
-
+alarm[0] = 60;
 // alarme para a bola começar a se mover
 
-alarm[0] = 60;
+
